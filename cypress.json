@@ -1,0 +1,14 @@
+{
+    "testFiles": "**/Test/*.feature",
+    "defaultTimeout": 5000,
+    "screenshotOnRunFailure": false,
+    "reporter":"mochawesome",
+    "reporterOptions":{
+        "charts":true,
+        "overwrite":false,
+        "html":true,
+        "json":true, 
+        "reportDir":"cypress/reports"
+
+    }
+}  
